@@ -1,0 +1,24 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "askForPassword": false,
+      "driver": "MySQL",
+      "name": "mylocalhost",
+      "database": "test_emp",
+      "username": "root"
+    },
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "devSearch DB",
+      "database": "${workspaceFolder:devSearch}/db.sqlite3"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
